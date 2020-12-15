@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+   background: #d80abd; 
+}
+
+ul {
+   /* Your code here */
+   list-style: none;
+   display: flex;
+   margin: 0;
+}
+ul li {
+    /* Your code here */
+    padding: 10px;
+}
+ul li a {
+    /* Your code here */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    /* Your code here */
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;    
+}
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+     /* Your code here */
+    width: 100%;
+}
+table {
+   
+    width: 90%;
+    margin: auto;
+     /* Your code here */
+    border-collapse: collapse;
+}
+th {
+    background: #000;
+    color:#fff;
+}
+tr,th,td {
+    /* Your code here */
+    border: 1px solid rgb(173, 173, 173);
+    padding: 10px;
+}
+.box {
+    margin-bottom: 20px;
+    height: 200px;
+    /* Your code here */
+    width: 400px;
+      
+}
+.box img {
+    width: 100%;
+}
